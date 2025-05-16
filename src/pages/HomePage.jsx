@@ -9,6 +9,7 @@ function HomePage() {
   return (
     <>
       <HeaderComponent></HeaderComponent>
+      <br/>
       <div>HomePage</div>
       <hr/>
       <button onClick={saySomething}>Pulsa Click</button>

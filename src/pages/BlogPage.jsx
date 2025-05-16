@@ -8,18 +8,22 @@ function BlogPage() {
   return (
    <>
    <HeaderComponent></HeaderComponent>
+   
    <div>BlogPage
-    <h1>Formulario - comenta</h1>
+    <center><h1>FORMULARIO</h1></center>
    <form onSubmit={handlesubmit}>
+    <center>
     <fieldset>
-      <label htmlFor="username">Nombre</label>
+      <label htmlFor="username">Nombre: </label>
       <input type="text" id="username"/>
     </fieldset>
+    <br/>
     <fieldset>
-      <label htmlFor="comentario">Comentario</label>
+      <label htmlFor="comentario">Comentario: </label>
       <input type="text" id="comentario" />
     </fieldset>
-    <button>Enviar</button>
+    </center>
+    <center><button>Enviar</button></center>
    </form>
    </div>
    </>
